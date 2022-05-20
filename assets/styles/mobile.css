@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+  /* -----------Header-----------*/
+header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    padding: 24px;
+  }
+  .header nav {
+    align-self: stretch;
+    height: 60px;
+  }
+  nav ul li a:{
+    border-bottom: solid 1px #0065FC;
+  }
+/*-------------Recherche----------*/
+
+  form{
+    width: auto;
+  }
+  .search-icon{
+    display: inline-block;
+  }
+/*-----------Filtres------*/
+
+.liste-filtres{
+  display: block;
+  flex-direction: column;
+}
+.filtres{
+  margin-bottom: 10px;
+}
+
+  /*-------------Les logements----------*/
+
+  .habitation{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  #hebergements{
+    display: block;
+    margin-bottom: 20px;
+
+  }
+  .bloc_hebergements{
+    display:flex;
+    flex-direction: column;
+  }
+  .log_populaires{
+    display: flex;
+    flex-direction: column;
+    order: -1;
+  }
+ 
+  /*------------Activités---------*/
+
+  .grande_div{
+    display: flex;
+    flex-direction: column;
+  }
+  .bloc_activites{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+  }
+  .activites .activities-cards-lg{
+    padding-bottom: 20px;
+  }
+  .activites img{
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .activites .activities-cards-lg {
+    height: 45%;
+    width: 45%;
+
+  }
