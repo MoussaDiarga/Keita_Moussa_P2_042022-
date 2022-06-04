@@ -4,7 +4,7 @@
     --lightblue:#DEEBFF;
     --lightgrey:#F2F2F2;
     --skyblue:#77b5fe;
-    --box-shadow: #D0D3D9 10px 10px 15px;
+    --box-shadow: lightgray 0px 0px 15px;
 } 
 
   
@@ -13,7 +13,6 @@
 header {
     flex-direction: column;
     align-items: center;
-    gap: 1px;
     padding: 24px;
   }
   .header nav {
@@ -47,8 +46,8 @@ header {
 
   .fa-location-dot:before, .fa-map-marker-alt:before{
     position: relative;
-    top: 10px;
-    left: 5px;
+    top: 9px;
+    left: 10px;
   }
 
 /*-----------Filtres------*/
@@ -61,7 +60,7 @@ header {
   margin-bottom: 10px;
 }
 
-  /*-------------Les logements----------*
+  /*-------------Les logements----------*/
 
   .accommodations{
     display: flex;
@@ -77,26 +76,32 @@ header {
     background-color: transparent;
   }
  
-  }
   .lodging img{
-    width: 300px;
+    width: 350px;
     object-fit: cover;
   
   }
-  .lodging div{
+  .lodging div{/*
     width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
   }
 
-  .apartment{
+  .accommodations .apartment{
     border: 1px solid var(--lightgrey);
-    box-shadow: 2px 1px 1px var(--lightgrey);
+    box-shadow: var(--box-shadow);
     border-radius: 10px;
+    width: 362px;
+    margin-bottom: 40px;
   }
 
-  .lodging a{
-    position:relative;
-    top: 750px;
+  .afficher_plus{
+   font-size: large;
+  }
+  .flat{
+    justify-content:flex-start ;
+  }
+  .flat div{
+    flex-basis: unset;
   }
 
 
@@ -107,6 +112,7 @@ header {
     order: -1;
     margin-bottom: 30px;
     width: 400px;
+    justify-content: space-between;
   }
 
   .populars .card__rating-star{
@@ -126,7 +132,7 @@ header {
     padding: 3px;
  }
  .populars img{
-  
+  height: 120px;
  }
 
  .populars h3{
@@ -135,7 +141,7 @@ header {
 
  /*------------Activités----------------*/
 .activities{
-  margin-top: 750px;
+  /*margin-top: 870px;*/
 }
  .activities div{
   flex-direction: column;
@@ -180,4 +186,5 @@ footer{
   flex-direction: column;
   margin-top: 250px;
   width: 350px;
+}
 }
