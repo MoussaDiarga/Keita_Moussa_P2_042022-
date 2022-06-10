@@ -1,0 +1,22 @@
+@media (min-width:768px ) and (max-width: 992px){
+
+    /*------------Filtres----------*/
+    .filter{
+        margin-bottom: 10px;
+    }
+
+    /*------------Hebergements------*/
+
+    .flat .apartment{
+        margin-left: 20px;
+    }
+
+    /*-----------Populaires-----------*/
+    .populars .apartment{
+        margin-right: 20px;
+    }
+    /*-----------Footer--------------*/
+    footer h4{
+        margin-right: 50px;
+    }    
+}
