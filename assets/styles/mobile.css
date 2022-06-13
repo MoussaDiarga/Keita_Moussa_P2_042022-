@@ -77,7 +77,7 @@ header {
   }
  
   .lodging img{
-    width: 350px;
+    
     object-fit: cover;
   
   }
@@ -90,7 +90,7 @@ header {
     border: 1px solid var(--lightgrey);
     box-shadow: var(--box-shadow);
     border-radius: 10px;
-    width: 95%;
+    width: 86vw;
     margin-bottom: 40px;
     display: flex;
   }
@@ -143,16 +143,17 @@ header {
    font-size: medium;
  }
 
- 
- }
+  
+
 
  /*------------Activités----------------*/
-.activities{
-  /*margin-top: 870px;*/
-}
- .activities div{
+
+
+.activities div{
   flex-direction: column;
 }
+
+
 .cards_l{
   margin-bottom: 40px;
   position: relative;
@@ -161,28 +162,30 @@ header {
 }
 
 .activities img{
-  width: 349px;
-  height: 118px;
+  height: 24vh;
 }
 
 .all_cards_first div{
-  width: 350px;
-  height: 170px;
+  width: 86vw;
+  height: 33vh;
   border: solid var(--lightgrey) 1px;
   margin-bottom: 40px;
 }
 
 .all_cards_second div{
-  width: 350px;
-  height: 170px;
+  width: 86vw;
+  height: 32vh;
   border: solid var(--lightgrey) 1px;
 }
 
 .all_cards_first{
-  margin-bottom: 210px;
+  margin-bottom: 273px;
 }
 .activities .block{
   border: none;
+}
+.cards_1 img{
+  width: 86vw;
 }
 
 
@@ -191,7 +194,7 @@ footer{
 
   display: block;
   flex-direction: column;
-  margin-top: 250px;
-  width: 350px;
+  margin-top: 44vh;
+  width: 86vw;
 }
 }

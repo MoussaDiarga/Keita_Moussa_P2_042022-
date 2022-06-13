@@ -265,8 +265,8 @@ form{
 
 .accommodations .apartment{
   padding: 6px;
-  height: 90%;
-  width: 258px
+  height: 93%;
+  width: 17vw
 }
 .afficher_plus{
   font-weight: bold;
@@ -306,7 +306,7 @@ form{
 .apartment img{
   border-radius: 10px 10px 0% 0%;
   height: 118px;
-  width: 99%; 
+  width: 100%; 
 }
 .apartment p,
 .apartment h3{
@@ -339,6 +339,11 @@ form{
    margin-bottom: 40px;
    margin-right: 20px;
  }
+ .populars a{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
 
  .populars div{
    margin-left: 20px ;
@@ -368,8 +373,8 @@ form{
 }
 
 .cards_l{
-  height: 480px;
-  width: 304px;
+  height: 75vh;
+  width: 20vw;
   margin-right: 40px;
   margin-left: 15px;
   border: var(--lightgrey) solid 2px;
@@ -378,38 +383,38 @@ form{
 }
 
 .cards_l img{
-  height: 413px;
+  height: 90%;
 
 }
 .cards_1{
   border: solid 2px var(--lightgrey);
-  height: 250px;
-  width: 303px;
+  height: 30vh;
+  width: 19.6vw;
   border-radius: 16px 16px 16px 16px;
   margin-bottom: 40px;
   box-shadow: 0px 6px 6px var(--lightgrey);
 }
 
 .cards_1 img{
-  width: 187%;
+  width: 19.4vw;
 }
 
 .cards{
   border: solid 2px var(--lightgrey);
-  height: 250px;
-  width: 303px;
+  height: 33vh;
+  width: 20vw;
   border-radius: 16px 16px 16px 16px;
   margin-bottom: 40px;
   box-shadow: 0px 6px 6px var(--lightgrey);
 }
 .cards img{
-  height: 188px;
+  height: 80%;
 }
 
 .cards_s{
   border: solid 2px var(--lightgrey);
   margin-bottom: 40px;
-  width: 303px;
+  width: 20vw;
   border-radius: 16px 16px 16px 16px;
   box-shadow: 0px 6px 6px var(--lightgrey);
 }

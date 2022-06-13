@@ -1,0 +1,59 @@
+
+
+
+@media (min-width:768px ) and (max-width: 992px){
+
+    /*------------Filtres----------*/
+    .filter{
+        margin-bottom: 10px;
+    }
+
+    /*------------Hebergements------*/
+
+    .flat .apartment{
+        margin-left: 20px;
+    }
+
+    .accommodations {
+        flex-direction: column-reverse;
+      }
+
+      .accommodations div {
+        margin-right: 0;
+      }
+      .accommodations .apartment{
+        width: 90%;
+      }
+
+      .apartment img {
+        
+        width: 24vw;
+    }
+    /*-----------Populaires-----------*/
+    .populars .apartment{
+        margin-right: 20px;
+        width:90%;
+    }
+
+    /*---------Activités---------*/
+    .cards_1 img{
+      width: 19.4vw;
+    }
+    .cards_l{
+      height: 67vh;
+    }
+    .cards_s{
+      height: 28vh;
+    }
+    .activities h4{
+      margin: 0px 0px 0px 20px
+    }
+
+
+
+    /*-----------Footer--------------*/
+    footer h4{
+        margin-right: 50px;
+    } 
+      
+}
