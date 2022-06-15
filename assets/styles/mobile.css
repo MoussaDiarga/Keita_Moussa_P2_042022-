@@ -21,14 +21,17 @@ header {
   nav ul li a:hover{
     border-bottom: solid 3px var(--main-color);
     border-top: none;
-    display: flex;
-    justify-content: start;
-    padding: 0 10px 0 0;
-    font-weight: bold;
+  }
+  nav{
+    width: 100%;
   }
   nav ul{
-    position: relative;
-    right: 21vw;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+    padding: 0px; 
+  }
+  nav a{
+    padding: 0px;
   }
   header h1{
     flex-wrap: wrap;
@@ -38,8 +41,10 @@ header {
     margin-top: 0px;
   }
   #logo{
-    margin-right: 19vw;
+    margin-right: 0vw;
+    margin-left: 20vw;
   }
+  
 /*-------------Recherche----------*/
 
   form{
