@@ -13,20 +13,32 @@
 header {
     flex-direction: column;
     align-items: center;
-    padding: 24px;
   }
   .header nav {
     align-self: stretch;
     height: 60px;
   }
   nav ul li a:hover{
-    border-bottom: solid 2px var(--main-color);
+    border-bottom: solid 3px var(--main-color);
     border-top: none;
     display: flex;
     justify-content: start;
+    padding: 0 10px 0 0;
+    font-weight: bold;
+  }
+  nav ul{
+    position: relative;
+    right: 21vw;
   }
   header h1{
     flex-wrap: wrap;
+  }
+
+  h1{
+    margin-top: 0px;
+  }
+  #logo{
+    margin-right: 19vw;
   }
 /*-------------Recherche----------*/
 
@@ -81,10 +93,6 @@ header {
     object-fit: cover;
   
   }
-  .lodging div{/*
-    width: 350px;
-    margin-bottom: 20px;*/
-  }
 
   .accommodations .apartment{
     border: 1px solid var(--lightgrey);
@@ -114,7 +122,6 @@ header {
     flex-direction: column;
     order: -1;
     margin-bottom: 30px;
-   /* width: 400px;*/
     justify-content: space-between;
   }
 
@@ -129,8 +136,6 @@ header {
  }
 
  .populars .apartment{
-  
-    /*width: 350px;*/
     width: 93%;
     height: 128px;
     padding: 3px;
@@ -179,7 +184,7 @@ header {
 }
 
 .all_cards_first{
-  margin-bottom: 273px;
+  margin-bottom: 278px;
 }
 .activities .block{
   border: none;

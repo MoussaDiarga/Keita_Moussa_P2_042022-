@@ -290,13 +290,9 @@ form{
   margin-left: 25px;
 } 
 
-.flat div{
-  /*flex-basis: 30%;*/
-}
 
 .flat{
  flex-wrap: wrap;
- /*height: 550px;*/
 }
 .apartment{
  background-color: white; 
@@ -333,7 +329,6 @@ form{
 
  .populars .apartment{
    width: 360px;
-   /*width: 80%;*/
    padding: 6px;
    height: 125px;
    margin-bottom: 40px;
