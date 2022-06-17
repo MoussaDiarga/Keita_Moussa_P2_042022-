@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+ 
   :root{ 
     --main-color:#0065FC; 
     --lightblue:#DEEBFF;
@@ -206,5 +206,4 @@ footer{
   flex-direction: column;
   margin-top: 44vh;
   width: 86vw;
-}
 }
